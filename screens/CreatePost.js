@@ -63,7 +63,7 @@ export default class CreatePost extends Component {
                 .set(storyData)
                 .then(function (snapshot) { });
             //this.props.setUpdateToTrue();
-            this.props.navigation.navigate("FoodScreen");
+            this.props.navigation.navigate("Posts");
         } else {
             Alert.alert(
                 "Erro",
